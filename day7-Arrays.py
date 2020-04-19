@@ -14,6 +14,5 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
 
 arr.reverse()
-# ''.join(arr)
 arr = ' '.join(map(str, arr))
 print(arr)

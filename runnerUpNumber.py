@@ -1,8 +1,9 @@
 # n = int(input())
-arr = list(map(int, input().split()))
+arr = list(map(int, input('Numbers separated by space: ').split()))
 n = 5
 # arr = [9, 1, 7, 8, 9, 5, 9, 7, 4]
 # arr = [2, 3, 6, 6, 5,]
+print('Len: ' + str(len(arr)))
 arr.sort()
 ru = -101
 maxi = -101

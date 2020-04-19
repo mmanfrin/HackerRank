@@ -1,3 +1,5 @@
+"""Divide words based on its letter index(even or odd)
+"""
 # n = list(map(str, input().split()))
 n = int(input('Number of entries: '))
 # n = 2
