@@ -9,7 +9,7 @@ import sys
 
 
 if __name__ == '__main__':
-    n = int(input())
+    n = input()
 
     arr = list(map(int, input().rstrip().split()))
 
